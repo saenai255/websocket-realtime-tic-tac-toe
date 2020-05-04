@@ -1,0 +1,23 @@
+.board-cell {
+    text-align: center;
+    height: 20vh;
+    border: 2px solid #BFBFBF;
+}
+
+.board-cell span {
+    position: relative;
+    top: 27%;
+    font-size: 3em;
+}
+
+@media(max-width: 425px) {
+    .board-cell {
+        height: 10vh;
+    }
+
+    .board-cell span {
+        position: relative;
+        top: 15%;
+        font-size: 2em;
+    }
+}
