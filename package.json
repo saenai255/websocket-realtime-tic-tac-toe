@@ -1,0 +1,30 @@
+{
+  "name": "websocket-realtime-tic-tac-toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/main.ts"
+  },
+  "keywords": [
+    "websocket",
+    "realtime",
+    "tic",
+    "tac",
+    "toe"
+  ],
+  "author": "Paul Cosma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.2.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^13.11.1",
+    "@types/ws": "^7.2.4",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  }
+}
